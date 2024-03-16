@@ -17,8 +17,8 @@
 class Employee {
   // Заповніть модифікатори доступу
   public name: string;
-  protected department: string;
-  private salary: number;
+  private department: string;
+  protected salary: number;
 
   constructor(name: string, department: string, salary: number) {
     this.name = name;
